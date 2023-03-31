@@ -18,7 +18,7 @@ jobs:
           fetch-depth: 0
 
       - name: Deploy mkdocs
-        uses: mhausenblas/mkdocs-deploy-gh-pages@main
+        uses: mhausenblas/mkdocs-deploy-gh-pages@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CONFIG_FILE: mkdocs.yml
