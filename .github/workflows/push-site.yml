@@ -1,0 +1,25 @@
+name: Build and deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Deploy wiki
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          # Fix git-revision-date-localized-plugin shallow git fetch depth
+          # setting wrong Git revision dates when running in Github Actions.
+          fetch-depth: 0
+
+      - name: Deploy mkdocs
+        uses: mhausenblas/mkdocs-deploy-gh-pages@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CONFIG_FILE: mkdocs.yml
+          REQUIREMENTS: requirements.txt
