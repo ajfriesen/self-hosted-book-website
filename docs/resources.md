@@ -83,6 +83,7 @@ Podcasts
 ## Filesystem
 
 - [What Is ZFS?: A Brief Primer](https://www.youtube.com/watch?v=lsFDp-W1Ks0)
+- [How Much Memory Does ZFS Need and Does It Have To Be ECC?](https://youtu.be/xp6g-8VS06M)
 - [Tuesday Tech Tip - Linux RAID vs ZFS RAID](https://www.youtube.com/watch?v=onpq6qOtsrY)
 - [Book: FreeBSD Mastery: ZFS (IT Mastery)](https://www.amazon.de/FreeBSD-Mastery-ZFS-Book-English-ebook/dp/B00Y32OHNM/ref=sr_1_2?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=15MCUZQ6K5AXH&keywords=zfs&qid=1679866598&sprefix=zfs%2Caps%2C115&sr=8-2)
 - [Book: FreeBSD Mastery: Advanced ZFS](https://www.amazon.de/FreeBSD-Mastery-Advanced-ZFS-Band/dp/164235001X/ref=sr_1_2?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=15MCUZQ6K5AXH&keywords=zfs&qid=1679866696&sprefix=zfs%2Caps%2C115&sr=8-2)
